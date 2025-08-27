@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: #FFF;
+}
+
+.subtitle {
+  color: #FFF;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.coinInfo {
+  padding: 20px;
+  background-color: rgba(0,0,0,.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #FFF;
+  border-radius: 10px;
+}
+
+.back {
+  margin-top: 20px;
+  
+}
+
+.back button {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  color: #FFF;
+}

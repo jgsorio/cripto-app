@@ -3,7 +3,7 @@ import styles from './home.module.css';
 import { BsSearch } from 'react-icons/bs';
 import { useEffect, useState, type FormEvent } from 'react';
 
-interface CoinProps {
+export interface CoinProps {
   id: string;
   name: string;
   symbol: string;
